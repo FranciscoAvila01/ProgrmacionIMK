@@ -5,7 +5,7 @@ int main()
     float eng, phy, chem, math, comp; 
     float total, average, percentage;
 
-    printf("Enter marks of five subjects: \n");
+    printf("Enter marks of five subjects:\n");
     scanf("%f%f%f%f%f", &eng, &phy, &chem, &math, &comp);
 
     total = eng + phy + chem + math + comp;

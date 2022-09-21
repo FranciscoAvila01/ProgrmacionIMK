@@ -5,7 +5,7 @@ int main()
 {
     float cm, meter, km;
 
-    printf("Enter length in centimeter: ");
+    printf("Enter length in centimeter:\n");
     scanf("%f", &cm);
 
     meter = CMtoM(cm);

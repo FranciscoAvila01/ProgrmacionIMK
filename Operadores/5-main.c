@@ -5,9 +5,9 @@ int main()
 {
     double base, expo, power;
 
-    printf("Enter base: ");
+    printf("Enter base:\n");
     scanf("%lf", &base);
-    printf("Enter exponent: ");
+    printf("Enter exponent:\n");
     scanf("%lf", &expo);
 
     power = pow(base, expo);

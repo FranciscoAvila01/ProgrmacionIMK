@@ -4,7 +4,7 @@ int main()
 {
     int a, b, c;
 
-    printf("Enter two angles of triangle: ");
+    printf("Enter two angles of triangle:\n");
     scanf("%d%d", &a, &b);
 
     c = 180 - (a + b);

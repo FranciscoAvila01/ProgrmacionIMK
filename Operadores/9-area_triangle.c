@@ -4,9 +4,9 @@ int main()
 {
     float base, height, area;
 
-    printf("Enter base of the triangle: ");
+    printf("Enter base of the triangle:\n");
     scanf("%f", &base);
-    printf("Enter height of the triangle: ");
+    printf("Enter height of the triangle:\n");
     scanf("%f", &height);
 
     area = (base * height) / 2;
