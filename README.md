@@ -1,2 +1,2 @@
-# ProgrmacionIMK
+# ProgramacionIMK
 Programacion
