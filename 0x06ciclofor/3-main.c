@@ -5,6 +5,6 @@ int main(void)
 
     for (char i = 'a'; i<='z'; i++)
     {
-        printf("%c",i );
+        printf("%c\n",i );
     }
 }
