@@ -5,19 +5,11 @@
 int main()
 {
 
-     char conway[12][12];
+     char conway[10][10];
 
-    for(int j=0; j<12; j++)
+    for(int j=0; j<10; j++)
     {
-        for(int i=0; i<12; i++)
-        {
-            conway[i][j]=' ';
-        }
-    }
-
-    for(int j=0; j<11; j++)
-    {
-        for(int i=0; i<11; i++)
+        for(int i=0; i<10; i++)
         {
             int num = rand() % 11;
             if (num%2 == 0)
@@ -36,16 +28,16 @@ int main()
 
     printf("\n");
     int desconocido=1;
-    char conway2[12][12];
+    char conway2[9][9];
 
-    while(desconocido<20)
+    while(1)
     {
         int alivianado=0;
         int fallecido=0;
 
-        for(int j=1; j<11; j++)
+        for(int j=1; j<9; j++)
         {
-            for(int i=1; i<11; i++)
+            for(int i=1; i<9; i++)
             {
                 conway[i][j]=conway2[i][j];
                 if(conway[i][j]=='*')
@@ -80,9 +72,9 @@ int main()
        
         printf("Next One\n\n");
 
-        for(int j=1; j<11; j++)
+        for(int j=1; j<9; j++)
         {
-            for(int i=1; i<11; i++)
+            for(int i=1; i<9; i++)
             {
                 conway[i][j]=conway2[i][j];
             }
