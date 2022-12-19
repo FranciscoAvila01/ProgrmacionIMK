@@ -150,3 +150,7 @@ int main()
 
     return 0;
 }
+
+
+// Edgar Díaz Peraza 
+// Francisco Avila Blanco
